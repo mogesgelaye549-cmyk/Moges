@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: url(OIP.webp);
+    background-position: center;
+    background-size: cover;
+}
+header{
+    width: 100%;
+    padding: 30px;
+    font-size: 25px;
+    color: rgb(26, 20, 20);
+    text-align: center;
+    background-color: orange;
+}
+.logo table{
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+.logo table th{
+    background-color: aqua;
+}
+.logo table td{
+    color: green;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 0 0 15px greenyellow;
+    height: 50px;
+    display: flex;
+    background-color: transparent;
+
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: tomato;
+    padding: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+nav ul li a:hover{
+    border-bottom: 2px inset lime;
+    border-radius: 15px;
+    color: rgba(240, 7, 162, 0.938);
+}
+
+.Home h1{
+    color: goldenrod;
+}
+.Home img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+
+}
+.Home p{
+    margin: 20px 0;
+    font-size: 15px;
+   font-weight: bold;
+}
+section{
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+.skill ul{
+    list-style-type: none;
+    margin: 15px 50px;
+}
+.skill ul li{
+    font-size: 25px;
+    color: rgb(245, 7, 126);
+    border: 2px dashed aqua;
+    padding: 30px;
+    margin: 10px;
+}
+.about{
+    text-align: center;
+    margin: 0 auto;
+}
+h2{
+    text-align: center;
+    color: lime;
+}
+p a{
+    color: white;
+}
+footer{
+    color: rgb(253, 5, 5);
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+}
